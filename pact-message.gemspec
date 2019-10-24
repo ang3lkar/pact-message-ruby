@@ -4,10 +4,10 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "pact/message/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "pact-message"
+  spec.name          = "workable-pact-message"
   spec.version       = Pact::Message::VERSION
-  spec.authors       = ["Beth Skurrie"]
-  spec.email         = ["beth@bethesque.com"]
+  spec.authors       = ["Angelos Karagkiozidis"]
+  spec.email         = ["angelos@workable.com"]
 
   spec.summary       = %q{Consumer contract library for messages}
   spec.homepage      = "http://pact.io"
@@ -34,7 +34,7 @@ Gem::Specification.new do |spec|
   # and Pact::ConsumerContractWriter. Potentially we should extract
   # or duplicate these classes to remove the pact-mock_service dependency.
   spec.add_runtime_dependency "pact-mock_service", "~> 3.1"
-  spec.add_runtime_dependency "thor", "~> 0.20"
+  spec.add_runtime_dependency "thor", "~> 0.19"
 
   spec.add_development_dependency "bundler", "~> 1.17.3"
   spec.add_development_dependency "rake", "~> 10.0"
