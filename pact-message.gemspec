@@ -34,7 +34,7 @@ Gem::Specification.new do |spec|
   # and Pact::ConsumerContractWriter. Potentially we should extract
   # or duplicate these classes to remove the pact-mock_service dependency.
   spec.add_runtime_dependency "pact-mock_service", "~> 3.1"
-  spec.add_runtime_dependency "thor", "~> 0.20"
+  spec.add_runtime_dependency "thor", "~> 0.19"
 
   spec.add_development_dependency "bundler", "~> 1.15"
   spec.add_development_dependency "rake", "~> 10.0"
