@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "pact/message/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "workable-pact-message"
+  spec.name          = "pact-message"
   spec.version       = Pact::Message::VERSION
   spec.authors       = ["Angelos Karagkiozidis"]
   spec.email         = ["angelos@workable.com"]
